@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+
+.low-stakes {
+    font-family: Calibri, sans-serif
+}
+
+.low-stakes.sheet {
+    font-size: 1.2em;
+}
+
+.low-stakes.sheet.actor input[name="name"] {
+    font-size: 1.5em;
+    margin-left: 0.25em;
+    margin-bottom: 0.5rem;
+}
+
+.low-stakes h1, .low-stakes h2 {
+    font-family: 'New Rocker', cursive;
+    border-bottom: 0;
+    display: flex;
+}
+
+.low-stakes li.custom input {
+    font-family: Calibri, sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 1em;
+}
+
+.low-stakes h1 {
+    text-align: center;
+}
+
+.low-stakes.sheet .window-content {
+    background:white;
+}
+
+.low-stakes .powers-box {
+    min-width: 100px;
+    height: 200px;
+    border: 4px solid black;
+    background: none;
+    font-family: Calibri, sans-serif;
+    font-size: 1em;
+}
+
+.low-stakes input {
+    background: none;
+    border: 0;
+    padding: 0;
+    height: auto;
+}
+
+.low-stakes .columns {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.low-stakes .columns .column2 {
+    flex-grow: 1;
+}
+
+.low-stakes.sheet .roll-group {
+    border-left: 1.5em solid black;
+    padding-left: 0.5em;
+}
+
+.low-stakes.sheet .stats {
+    text-align: center;
+    display: flex;
+}
+
+.low-stakes.sheet .stats > * {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.low-stakes .circle {
+    border:4px solid black;    
+    height:5em;
+    width:5em;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.low-stakes .circle > * {
+    font-family: 'New Rocker', cursive;
+    font-size: 2em;
+}
+
+.low-stakes.sheet .circle > input[type="number"]:focus {
+    box-shadow: none;
+}
+
+.low-stakes .circle.large { 
+    font-size: 1.5em;
+}
+
+.low-stakes.sheet .playbook-destination {
+    height: 80%;
+    width: 50%;
+    min-width: 300px;
+    font-size: 2em;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.low-stakes li[checked], .low-stakes li[checked] input {
+    font-family: 'New Rocker', cursive;
+}

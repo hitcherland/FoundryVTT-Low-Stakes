@@ -1,0 +1,93 @@
+<form class="{{cssClass}} {{item.type}} flexcol" autocomplete="off">
+    <section class="sheet-body">
+        <h1 class="charname"><input name="name" type="text" value="{{localize item.name}}" placeholder="Name" /></h1>
+
+        <div>
+            <h2>{{localize "low-stakes.character_name"}}:</h2>
+        </div>
+
+        <div class="description">
+            {{editor content=(localize data.data.description) target="data.description" button=true owner=owner
+            editable=editable}}
+        </div>
+
+        <div class="columns">
+            <div class="type column2">
+                <h2>{{localize "low-stakes.type"}}</h2>
+                <ul>
+                    {{#each data.data.types as |type index|}}
+                    <li><input name="data.types.{{index}}" type="text" value="{{localize type}}" /></li>
+                    {{/each}}
+                </ul>
+            </div>
+
+            <div class="powers column2">
+                <h2>{{localize "low-stakes.powers"}}</h2>
+                <div class="powers-box"></div>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="roll-group column2">
+                <div class="problem-areas">
+                    <h2>{{localize "low-stakes.problem_areas"}}</h2>
+                    <ul>
+                        {{#each data.data.problem_areas as |problem_area index|}}
+                        <li><input name="data.problem_areas.{{index}}" type="text" value="{{localize problem_area}}" />
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+
+                <div class="clout-skills">
+                    <h2>{{localize "low-stakes.clout_skills"}}</h2>
+                    <ul>
+                        {{#each data.data.clout_skills as |clout_skill index|}}
+                        <li><input name="data.clout_skills.{{index}}" type="text" value="{{localize clout_skill}}" />
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+            <div class="column2 stats">
+                <div>
+                    <h2>{{localize "low-stakes.clout"}}</h2>
+                    <div class="circle">
+                    
+                    </div>
+                </div>
+                <div>
+                    <h2>{{localize "low-stakes.confidence"}}</h2>
+                    <div class="circle large">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="confessions">
+            <h2>{{localize "low-stakes.confessions.title"}}</h2>
+            <div>
+                <input type="checkbox" name="data.confessions.reveal" />
+                <label>
+                    <b>{{localize "low-stakes.confessions.reveal.name"}}</b>
+                    <span>{{localize "low-stakes.confessions.reveal.description"}}</span>
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" name="data.confessions.foreshadow" />
+                <label>
+                    <b>{{localize "low-stakes.confessions.foreshadow.name"}}</b>
+                    <span>{{localize "low-stakes.confessions.foreshadow.description"}}</span>
+                </label>
+            </div>
+            <div>
+                <input type="checkbox" name="data.confessions.poke_fun" />
+                <label>
+                    <b>{{localize "low-stakes.confessions.poke_fun.name"}}</b>
+                    <span>{{localize "low-stakes.confessions.poke_fun.description"}}</span>
+                </label>
+            </div>
+        </div>
+    </section>
+</form>

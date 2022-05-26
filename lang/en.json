@@ -1,0 +1,412 @@
+{
+    "low-stakes": {
+        "character_name": "Character Name",
+        "drag_playbook_over": "Drag a playbook here",
+        "scenes": "Scenes",
+        "twist": "Twist",
+        "setup": "Setup",
+        "roll_a_die": "Roll a die.",
+        "roll_two_dice": "Roll two dice and add them together.",
+        "type": "Type",
+        "powers": "Powers",
+        "clout": "Clout",
+        "clout_skills": "Clout Skills (TN 5)",
+        "problem_areas": "Problem Areas (TN 6)",
+        "confidence": "Confidence",
+        "confessions": {
+            "title": "Confessions",
+            "reveal": {
+                "name": "Reveal",
+                "description": "something unknown"
+            },
+            "foreshadow": {
+                "name": "Foreshadow",
+                "description": "what's to come"
+            },
+            "poke_fun": {
+                "name": "Poke fun",
+                "description": "at a character"
+            }
+        },
+        "types": {
+            "vampire": "Vampire (feed)",
+            "psychic_vampire": "Psychic Vampire (feed)",
+            "werewolf": "Werewolf (transform)",
+            "ghost": "Ghost (inhabit things)",
+            "mystic": "Mystic (minor magic)",
+            "human": "Human (pass as human)"
+        },
+        "playbooks": {
+            "label": "Playbooks",
+            "anachronism": {
+                "name": "THE ANACHRONISM",
+                "description": "You’re better suited to living in another time. Completely out of place in the modern world, you are set in your ways and have trouble dealing with the speed and complexity of modern day life.",
+                "problem_areas": {
+                    "modern_tech": "Modern tech/conveniences",
+                    "social_norms": "Social norms",
+                    "pop_culture": "Pop culture",
+                    "home_ownership": "Home ownership"
+                },
+                "clout_skills": {
+                    "act_pathetic": "Act pathetic and garner sympathy",
+                    "past_successes": "Point out your past successes to others",
+                    "pretend_importance": "Pretend to be more important than you are",
+                    "outdated_language": "Use outdated language and skills to impress"
+                }
+            },
+            "caregiver": {
+                "name": "THE CAREGIVER",
+                "description": "You’re often the poor bastard that has to get the actual work done. You take care of everyone else, neglecting your own hopes and dreams, sometimes to your own detriment.",
+                "problem_areas": {
+                    "take_care": "Take care of yourself",
+                    "personal_problem": "Deal w/ a personal problem",
+                    "stand_up": "Stand up to someone",
+                    "berate": "Berate or punish someone"
+                },
+                "clout_skills": {
+                    "solve_problem": "Solve a problem for someone else",
+                    "prove_value": "Prove your value to someone",
+                    "flatter_someone": "Flatter someone in detail",
+                    "teach_someone": "Teach someone how to do something"
+                }
+            },
+            "grump": {
+                "name": "THE GRUMP",
+                "description": "You’re perpetually in a sour mood. Few things, if any, make you truly happy. You have a few endearing qualities that keep others from killing you, but you only use them to get your way.",
+                "problem_areas": {
+                    "give_in": "Give in on something",
+                    "be_friendly": "Be friendly and inviting",
+                    "apologize": "Apologize and mean it",
+                    "affection": "Show genuine affection"
+                },
+                "clout_skills": {
+                    "stare": "Stare silently to win",
+                    "complain": "Complain until you get your way",
+                    "show_good_side": "Show your good side to get your way",
+                    "get_someone_angry": "Get someone else angry and bond with them"
+                }
+            },
+            "instigator": {
+                "name": "THE INSTIGATOR",
+                "description": "You take joy in poking others, getting them to do things for you, or otherwise manipulating them passively. You’re often mildly off-putting and have a hard time developing close relationships.",
+                "problem_areas": {
+                    "be_honest": "Be honest with someone",
+                    "avoid_manipulating": "Avoid manipulating others",
+                    "hand_over_power": "Hand over your power",
+                    "let_it_go": "Just let it go"
+                },
+                "clout_skills": {
+                    "bore": "Bore someone into doing something",
+                    "incite": "Incite negative emotion in someone",
+                    "control": "Control the room by constantly talking",
+                    "ignore": "Ignore someone to force your point"
+                }
+            },
+            "judge": {
+                "name": "THE JUDGE",
+                "description": "You see others as they are and can’t help calling them out on their bullshit. However, constantly examining things and people around you often makes you unaware of your own shortcomings.",
+                "problem_areas": {
+                    "fix": "Fix a problem you created",
+                    "be_kind": "Be kind or nurturing",
+                    "take_criticism": "Take criticism well",
+                    "admit_weakness": "Admit weakness"
+                },
+                "clout_skills": {
+                    "berate": "Berate someone into doing what you want",
+                    "point_flaws": "Point out someone’s flaws in detail",
+                    "trick": "Trick someone to get what you want",
+                    "convince": "Convince someone to concede"
+                }
+            },
+            "peacock": {
+                "name": "THE PEACOCK",
+                "description": "You are the cock of the walk and you assume everyone knows it. Your style, panache, and sexy eyes are the envy of everyone you know. You’re sure there’s nothing about you that needs work.",
+                "problem_areas": {
+                    "show_humility": "Show humility",
+                    "empathize": "Empathize with others",
+                    "low_key": "Do anything low-key",
+                    "helpful": "Be helpful without reward"
+                },
+                "clout_skills": {
+                    "impress": "Impress others with your style and panache",
+                    "woo": "Woo someone",
+                    "overwhelm": "Overwhelm someone with your greatness",
+                    "control": "Control the room non-verbally"
+                }
+            },
+            "rebel": {
+                "name": "THE REBEL",
+                "description": "You hate rules. Period. You prefer to do things your own way. Even when you do go along with others’ wishes, you put your own spin on things. You have a hard time getting others to trust you.",
+                "problem_areas": {
+                    "cooperate": "Cooperate with someone",
+                    "error": "See the error of your ways",
+                    "trust": "Get someone to trust you",
+                    "humility": "Show humility"
+                },
+                "clout_skills": {
+                    "best_way": "Show your way to be the best way",
+                    "surprise": "Surprise everyone",
+                    "feel_cool": "Make someone else feel cool",
+                    "show_off": "Show off big time"
+                }
+            },
+            "stickler": {
+                "name": "THE STICKLER",
+                "description": "You’re particular about…well…everything. You like things how you like them and lose your shit if things aren’t just right. You often irritate others to no end. But at least you’re reliable.",
+                "problem_areas": {
+                    "break_rules": "Break your own rules",
+                    "compromise": "Compromise w/ someone",
+                    "be_in_charge": "Let someone be in charge",
+                    "complain": "Don’t complain"
+                },
+                "clout_skills": {
+                    "organize": "Organize everything for the better",
+                    "control": "Control the entire situation",
+                    "wear_down": "Wear someone down",
+                    "convince": "Convince someone your way is best"
+                }
+            }
+        },
+        "story_outlines": {
+            "label": "Story Outlines",
+            "bureaucracy": {
+                "name": "BUREAUCRACY",
+                "description": "The modern world comes crashing down on you as some form of bureaucracy invades your life. A neighborhood or government official or department requires you to jump through their hoops.",
+                "setup": "What’s Screwing Up Your Life?",
+                "setups": {
+                    "tax": "It’s tax time!",
+                    "business": "You want to start a home business and need a permit.",
+                    "census": "The census taker comes around.",
+                    "council": "The neighborhood council demands your involvement.",
+                    "renew": "You have to renew your lease, but first…an inspection.",
+                    "eminent_domain": "Government is kicking you out via eminent domain laws."
+                },
+                "twist": {
+                    "short_time": "You only have a short time to get this solved.",
+                    "paperwork": "You don’t have all the paperwork handy.",
+                    "crimes": "You have committed one or more crimes.",
+                    "trouble": "You’ve been in trouble with them before.",
+                    "scam": "You know it’s a scam/not real.",
+                    "criminal_record": "You have a criminal record."
+                },
+                "scenes": {
+                    "legal_proceedings": "They bring legal proceedings against you.",
+                    "supervisor": "You have to “talk to their supervisor.”",
+                    "fine": "An injunction or fine is imposed.",
+                    "agent": "An agent shows up at your home.",
+                    "spam": "You get spammed with emails.",
+                    "mail": "You receive a notification in the mail.",
+                    "new_laws": "You hear about new rules/laws that will screw you.",
+                    "office": "Go to the office to meet with them.",
+                    "paperwork": "There is tons of paperwork.",
+                    "interviews": "You must suffer personal interviews.",
+                    "bribe": "They want a bribe."
+                }
+            },
+            "host_a_party": {
+                "name": "HOST A PARTY",
+                "description": "You’re hosting a party. You spent weeks planning it. You spent days preparing the house. You invited all the right people. Here’s hoping it goes off without a hitch.",
+                "setup": "What Kind of Party Is It?",
+                "setups": {
+                    "birthday": "Birthday",
+                    "dinner": "Fancy dinner",
+                    "dating": "Dating/singles",
+                    "super_bowl": "Super Bowl",
+                    "wedding_reception": "Wedding reception",
+                    "halloween": "Halloween"
+                },
+                "twist": {
+                    "too_many": "Too many people show up.",
+                    "service_fails": "Some utility or service fails (cable, Wi-Fi, electricity, etc.).",
+                    "understocked": "You’re understocked for food and drink.",
+                    "houseguest": "You have a houseguest. (Players decide who that is.)",
+                    "competing_party": "There’s a competing party next door.",
+                    "too_few": "Too few people show up."
+                },
+                "scenes": {
+                    "fire": "The house catches fire.",
+                    "leave": "Everyone wants to leave.",
+                    "police": "The police show up.",
+                    "out_of_control": "The party gets “out of control.”",
+                    "missing_guest": "A guest goes missing.",
+                    "broken_furniture": "A piece of furniture gets broken.",
+                    "no_food_or_drink": "You run out of food or drink.",
+                    "rival": "A rival of one of the characters shows up at the party.",
+                    "stolen": "Something valuable is stolen.",
+                    "fight": "A fight breaks out.",
+                    "death": "Someone dies."
+                }
+            },
+            "lost_pet": {
+                "name": "LOST PET",
+                "description": "Your beloved pet has gone missing. You need to find them before they get killed or get someone else killed. Worst of all, no one knows whose fault it is they got out.",
+                "setup": "What Kind of Pet Is It?",
+                "setups": {
+                    "bunny": "A cute, fluffy bunny",
+                    "bird": "A beloved bird",
+                    "cat": "A cranky cat",
+                    "dog": "The best dog in the world",
+                    "dangerous": "Something kind of dangerous",
+                    "very_dangerous": "Something really fucking dangerous"
+                },
+                "twist": {
+                    "neighbour_hates": "A neighbor hates your pet.",
+                    "happened_before": "This has happened before.",
+                    "hide_and_seek": "The pet likes to play hide and seek.",
+                    "no_pets_rule": "The neighborhood council has a no pets rule.",
+                    "two_different_pets": "There are two pets. (Roll Setup again for the second pet.)",
+                    "two_identical_pets": "There are two pets. (Two of the same pet initially rolled.)"
+                },
+                "scenes": {
+                    "professional": "Bring in a professional to hunt the pet down.",
+                    "wrong_pet": "Find the wrong, but similar, pet.",
+                    "lure": "Lay out a trap with a lure.",
+                    "punk_kids": "Some punk kids might be able to help.",
+                    "canvas": "Canvas the neighborhood, door to door.",
+                    "house_and_yard": "Search the house and yard.",
+                    "posters": "Hang up “Lost Pet” posters.",
+                    "asshole_neighbor": "Ask your asshole neighbor.",
+                    "stay_up": "Stay up more than a full day looking.",
+                    "reward": "Offer a reward.",
+                    "hiding_in_house": "The pet was in a hiding spot in the house all along."
+                }
+            },
+            "new_neighbour": {
+                "name": "NEW NEIGHBOR",
+                "description": "A new neighbor has moved in next door. They’re super annoying and constantly up in your business. Will they discover what you all are? Will they care? Will they sell tickets?",
+                "setup": "Who’s the Neighbor?",
+                "setups": {
+                    "vampire": "A vampire (regular or psychic, you pick)",
+                    "werewolf": "A werewolf",
+                    "ghost": "A ghost",
+                    "ignorant_human": "A human who doesn’t know monsters exist",
+                    "knowledgable_human": "A human who knows monsters exist",
+                    "hunter": "A human monster hunter"
+                },
+                "twist": {
+                    "love": "The neighbor falls in love with one roommate.",
+                    "recording": "They are secretly recording their interactions with you.",
+                    "captain": "They’re the new captain of the neighborhood watch.",
+                    "famous": "They’re famous. (Determine how by consensus.)",
+                    "long_term_relationship": "They just ended a long-term relationship.",
+                    "more_neighbours": "They invite other neighbors to your place when they visit."
+                },
+                "scenes": {
+                    "before_wake_up": "They’re in your home before you wake up.",
+                    "need_help": "They need help with something strenuous or taxing.",
+                    "midnight_caller": "They call in the middle of the night. Multiple times.",
+                    "podcast": "They try to start up a podcast with you.",
+                    "musical_instrument": "They show off their new musical instrument.",
+                    "food": "They bring food to get to know you.",
+                    "pet": "They introduce you to their horrible pet.",
+                    "ridiculous_nicknames": "They start making up ridiculous nicknames for you.",
+                    "wont_leave": "They just…won’t…leave.",
+                    "pick_fight": "They pick a fight for no good reason.",
+                    "supplant": "They try to supplant one of you as a new roommate."
+                }
+            },
+            "new_roomate": {
+                "name": "NEW ROOMMATE",
+                "description": "You’ve had to take in a new roommate to help cover the bills. They just don’t understand how you do things in the house and are constantly trying to make things work their way.",
+                "setup": "Who’s the New Roommate?",
+                "setups": {
+                    "vampire": "A vampire (regular or psychic, you pick)",
+                    "werewolf": "A werewolf",
+                    "ghost": "A ghost",
+                    "mystic": "A mystic",
+                    "human_who_doesnt_know": "A human who doesn’t know monsters exist",
+                    "human_who_knows": "A human who knows monsters exist"
+                },
+                "twists": {
+                    "bad_habits": "They have tons of bad habits.",
+                    "borrowing": "They constantly borrow things and don’t return them.",
+                    "broke": "They’re broke.",
+                    "love": "They have fallen in love with one of you.",
+                    "motive": "They have an ulterior motive for moving in.",
+                    "hunting": "You think they might be hunting one of you."
+                },
+                "scenes": {
+                    "kick_out": "Kick their ass out.",
+                    "wanted": "You learn they’re wanted for something.",
+                    "missing": "Your possessions go missing.",
+                    "chores": "Convince them to do their chores.",
+                    "rent": "Get their share of rent from them.",
+                    "meeting": "Have a roommate meeting.",
+                    "utilities": "Ask them to put one of the utilities in their name.",
+                    "bond": "Try to bond with them.",
+                    "party": "They host a huge, noisy party without telling you.",
+                    "trouble": "They get in trouble for something and pin it on you.",
+                    "disappear": "Make them disappear."
+                }
+            },
+            "one_day": {
+                "name": "ONE DAY",
+                "description": "An ordinary day around the house turns into an absolute debacle. Nothing goes smoothly. And there’s no one to blame. Everything just goes wrong. Can you get through the day?",
+                "setup": "What Do You Want to Accomplish?",
+                "setups": {
+                    "games": "Play games.",
+                    "movie": "Watch a movie or TV.",
+                    "dishes": "Do the dishes.",
+                    "holiday_cards": "Send out holiday cards.",
+                    "fix": "Fix a leaky faucet.",
+                    "laundry": "Do the laundry."
+                },
+                "twists": {
+                    "stormy": "It’s a stormy day with lightning and thunder.",
+                    "kids": "Neighbor kids keep screwing around in the backyard.",
+                    "long_month": "It’s the end of a very long, very hectic month.",
+                    "mess": "The place is a huge mess.",
+                    "really_hot": "It’s really hot out and you have no air conditioning.",
+                    "argument": "There’s an unresolved argument hanging over everyone."
+                },
+                "scenes": {
+                    "relative": "A relative or old friend unexpectedly visits.",
+                    "monster_hunter": "A monster hunter shows up.",
+                    "construction": "Road construction starts up outside.",
+                    "electricity_cuts": "The electricity suddenly cuts out.",
+                    "valuable_broken": "Something valuable gets broken.",
+                    "argument": "You get into an argument.",
+                    "missing": "Something you need goes missing.",
+                    "kids": "Kids come by selling something.",
+                    "emergency": "An emergency arises.",
+                    "fire": "There’s a fire in the house.",
+                    "neighbor": "The irritating neighbor won’t leave you alone."
+                }
+            },
+            "road_trip": {
+                "name": "ROAD TRIP",
+                "description": "You’re on a road trip. You may or may not have planned it well, but you’re on your way. The combination of cramped quarters and unfamiliar surroundings creates a powder keg.",
+                "setup": "Where Are You Going?",
+                "setups": {
+                    "friend": "To visit a mutual friend",
+                    "pick_up": "To pick up or drop off someone or something",
+                    "authority": "Answer to an authority (court date, vampire council, etc.)",
+                    "vacation": "Vacation destination (decide on a specific destination)",
+                    "get_away": "To get away from someone or something for a while",
+                    "fun": "Just for the fun of being on the road"
+                },
+                "twists": {
+                    "car_dying": "Your car is on its last leg.",
+                    "weather": "Inhospitable weather strikes.",
+                    "uber": "You don’t own a car so you get an Uber.",
+                    "pickup": "The car is actually a pickup truck with no back seats.",
+                    "freeway": "The freeway is incredibly busy.",
+                    "convertible": "The convertible top doesn’t operate properly."
+                },
+                "scenes": {
+                    "wrong_way": "You’ve been going the wrong way the whole time.",
+                    "breakdown": "The car breaks down.",
+                    "shady_hiker": "A shady looking hitchhiker joins you.",
+                    "filthy_rest_stop": "You pull over at a filthy rest stop.",
+                    "speed_trap": "You hit a speed trap.",
+                    "snacks": "You stop for snacks/supplies.",
+                    "radio_breaks": "The radio breaks. You have to agree on a CD to play.",
+                    "drag_race": "Some rockin’ teens challenge you to a drag race.",
+                    "heat": "The heat/AC goes out.",
+                    "kid_recognises": "A kid in a nearby car recognizes you as monsters.",
+                    "semi_truck": "A semi-truck starts trying to run you off the road."
+                }
+            }
+        }
+    }
+}

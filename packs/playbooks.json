@@ -1,0 +1,234 @@
+[
+    {
+        "_id": "lowstakesanachro",
+        "name": "low-stakes.playbooks.anachronism.name",
+        "type": "playbook",
+        "data": {
+            "description": "low-stakes.playbooks.anachronism.description",
+            "powers": "",
+            "types": [
+                "low-stakes.types.vampire",
+                "low-stakes.types.psychic_vampire",
+                "low-stakes.types.werewolf",
+                "low-stakes.types.ghost",
+                "low-stakes.types.mystic",
+                "low-stakes.types.human"
+            ],
+            "problem_areas": [
+                "low-stakes.playbooks.anachronism.problem_areas.modern_tech",
+                "low-stakes.playbooks.anachronism.problem_areas.social_norms",
+                "low-stakes.playbooks.anachronism.problem_areas.pop_culture",
+                "low-stakes.playbooks.anachronism.problem_areas.home_ownership"
+            ],
+            "clout_skills": [
+                "low-stakes.playbooks.anachronism.clout_skills.act_pathetic",
+                "low-stakes.playbooks.anachronism.clout_skills.past_successes",
+                "low-stakes.playbooks.anachronism.clout_skills.pretend_importance",
+                "low-stakes.playbooks.anachronism.clout_skills.outdated_language"
+            ]
+        }
+    },
+    {
+        "_id": "lowstakescaregiv",
+        "name": "low-stakes.playbooks.caregiver.name",
+        "type": "playbook",
+        "data": {
+            "description": "low-stakes.playbooks.caregiver.description",
+            "powers": "",
+            "types": [
+                "low-stakes.types.vampire",
+                "low-stakes.types.psychic_vampire",
+                "low-stakes.types.werewolf",
+                "low-stakes.types.ghost",
+                "low-stakes.types.mystic",
+                "low-stakes.types.human"
+            ],
+            "problem_areas": [
+                "low-stakes.playbooks.caregiver.problem_areas.take_care",
+                "low-stakes.playbooks.caregiver.problem_areas.personal_problem",
+                "low-stakes.playbooks.caregiver.problem_areas.stand_up",
+                "low-stakes.playbooks.caregiver.problem_areas.berate"
+            ],
+            "clout_skills": [
+                "low-stakes.playbooks.caregiver.clout_skills.solve_problem",
+                "low-stakes.playbooks.caregiver.clout_skills.prove_value",
+                "low-stakes.playbooks.caregiver.clout_skills.flatter_someone",
+                "low-stakes.playbooks.caregiver.clout_skills.teach_someone"
+            ]
+        }
+    },
+    {
+        "_id": "lowstakesgrumpxx",
+        "name": "low-stakes.playbooks.grump.name",
+        "type": "playbook",
+        "data": {
+            "description": "low-stakes.playbooks.grump.description",
+            "powers": "",
+            "types": [
+                "low-stakes.types.vampire",
+                "low-stakes.types.psychic_vampire",
+                "low-stakes.types.werewolf",
+                "low-stakes.types.ghost",
+                "low-stakes.types.mystic",
+                "low-stakes.types.human"
+            ],
+            "problem_areas": [
+                "low-stakes.playbooks.grump.problem_areas.give_in",
+                "low-stakes.playbooks.grump.problem_areas.be_friendly",
+                "low-stakes.playbooks.grump.problem_areas.apologize",
+                "low-stakes.playbooks.grump.problem_areas.affection"
+            ],
+            "clout_skills": [
+                "low-stakes.playbooks.grump.clout_skills.stare",
+                "low-stakes.playbooks.grump.clout_skills.complain",
+                "low-stakes.playbooks.grump.clout_skills.show_good_side",
+                "low-stakes.playbooks.grump.clout_skills.get_someone_angry"
+            ]
+        }
+    },
+    {
+        "_id": "lowstakesinstiga",
+        "name": "low-stakes.playbooks.instigator.name",
+        "type": "playbook",
+        "data": {
+            "description": "low-stakes.playbooks.instigator.description",
+            "powers": "",
+            "types": [
+                "low-stakes.types.vampire",
+                "low-stakes.types.psychic_vampire",
+                "low-stakes.types.werewolf",
+                "low-stakes.types.ghost",
+                "low-stakes.types.mystic",
+                "low-stakes.types.human"
+            ],
+            "problem_areas": [
+                "low-stakes.playbooks.instigator.problem_areas.be_honest",
+                "low-stakes.playbooks.instigator.problem_areas.avoid_manipulating",
+                "low-stakes.playbooks.instigator.problem_areas.hand_over_power",
+                "low-stakes.playbooks.instigator.problem_areas.let_it_go"
+            ],
+            "clout_skills": [
+                "low-stakes.playbooks.instigator.clout_skills.bore",
+                "low-stakes.playbooks.instigator.clout_skills.incite",
+                "low-stakes.playbooks.instigator.clout_skills.control",
+                "low-stakes.playbooks.instigator.clout_skills.ignore"
+            ]
+        }
+    },
+    {
+        "_id": "lowstakesjudgexx",
+        "name": "low-stakes.playbooks.judge.name",
+        "type": "playbook",
+        "data": {
+            "description": "low-stakes.playbooks.judge.description",
+            "powers": "",
+            "types": [
+                "low-stakes.types.vampire",
+                "low-stakes.types.psychic_vampire",
+                "low-stakes.types.werewolf",
+                "low-stakes.types.ghost",
+                "low-stakes.types.mystic",
+                "low-stakes.types.human"
+            ],
+            "problem_areas": [
+                "low-stakes.playbooks.judge.problem_areas.fix",
+                "low-stakes.playbooks.judge.problem_areas.be_kind",
+                "low-stakes.playbooks.judge.problem_areas.take_criticism",
+                "low-stakes.playbooks.judge.problem_areas.admit_weakness"
+            ],
+            "clout_skills": [
+                "low-stakes.playbooks.judge.clout_skills.berate",
+                "low-stakes.playbooks.judge.clout_skills.point_flaws",
+                "low-stakes.playbooks.judge.clout_skills.trick",
+                "low-stakes.playbooks.judge.clout_skills.convince"
+            ]
+        }
+    },
+    {
+        "_id": "lowstakespeacock",
+        "name": "low-stakes.playbooks.peacock.name",
+        "type": "playbook",
+        "data": {
+            "description": "low-stakes.playbooks.peacock.description",
+            "powers": "",
+            "types": [
+                "low-stakes.types.vampire",
+                "low-stakes.types.psychic_vampire",
+                "low-stakes.types.werewolf",
+                "low-stakes.types.ghost",
+                "low-stakes.types.mystic",
+                "low-stakes.types.human"
+            ],
+            "problem_areas": [
+                "low-stakes.playbooks.peacock.problem_areas.show_humility",
+                "low-stakes.playbooks.peacock.problem_areas.empathize",
+                "low-stakes.playbooks.peacock.problem_areas.low_key",
+                "low-stakes.playbooks.peacock.problem_areas.helpful"
+            ],
+            "clout_skills": [
+                "low-stakes.playbooks.peacock.clout_skills.impress",
+                "low-stakes.playbooks.peacock.clout_skills.woo",
+                "low-stakes.playbooks.peacock.clout_skills.overwhelm",
+                "low-stakes.playbooks.peacock.clout_skills.control"
+            ]
+        }
+    },
+    {
+        "_id": "lowstakesrebelxx",
+        "name": "low-stakes.playbooks.rebel.name",
+        "type": "playbook",
+        "data": {
+            "description": "low-stakes.playbooks.rebel.description",
+            "powers": "",
+            "types": [
+                "low-stakes.types.vampire",
+                "low-stakes.types.psychic_vampire",
+                "low-stakes.types.werewolf",
+                "low-stakes.types.ghost",
+                "low-stakes.types.mystic",
+                "low-stakes.types.human"
+            ],
+            "problem_areas": [
+                "low-stakes.playbooks.rebel.problem_areas.cooperate",
+                "low-stakes.playbooks.rebel.problem_areas.error",
+                "low-stakes.playbooks.rebel.problem_areas.trust",
+                "low-stakes.playbooks.rebel.problem_areas.humility"
+            ],
+            "clout_skills": [
+                "low-stakes.playbooks.rebel.clout_skills.best_way",
+                "low-stakes.playbooks.rebel.clout_skills.surprise",
+                "low-stakes.playbooks.rebel.clout_skills.feel_cool",
+                "low-stakes.playbooks.rebel.clout_skills.show_off"
+            ]
+        }
+    },
+    {
+        "_id": "lowstakesstickle",
+        "name": "low-stakes.playbooks.stickler.name",
+        "type": "playbook",
+        "data": {
+            "description": "low-stakes.playbooks.stickler.description",
+            "powers": "",
+            "types": [
+                "low-stakes.types.vampire",
+                "low-stakes.types.psychic_vampire",
+                "low-stakes.types.werewolf",
+                "low-stakes.types.ghost",
+                "low-stakes.types.mystic",
+                "low-stakes.types.human"
+            ],
+            "problem_areas": [
+                "low-stakes.playbooks.stickler.problem_areas.break_rules",
+                "low-stakes.playbooks.stickler.problem_areas.compromise",
+                "low-stakes.playbooks.stickler.problem_areas.be_in_charge",
+                "low-stakes.playbooks.stickler.problem_areas.complain"
+            ],
+            "clout_skills": [
+                "low-stakes.playbooks.stickler.clout_skills.organize",
+                "low-stakes.playbooks.stickler.clout_skills.control",
+                "low-stakes.playbooks.stickler.clout_skills.wear_down",
+                "low-stakes.playbooks.stickler.clout_skills.convince"
+            ]
+        }
+    }
+]

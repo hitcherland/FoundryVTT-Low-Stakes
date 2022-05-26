@@ -1,0 +1,47 @@
+{
+    "Actor": {
+        "types": [
+            "character"
+        ],
+        "character": {
+            "type": 0,
+            "custom_type": "",
+            "custom_problem_area": "",
+            "custom_clout_skill": "",
+            "clout": false,
+            "confidence": 0,
+            "powers": "",
+            "confessions": {
+                "reveal": false,
+                "foreshadow": false,
+                "poke_fun": false
+            }
+        }
+    },
+    "Item": {
+        "types": [
+            "playbook",
+            "story_outline"
+        ],
+        "character": {
+            "types": [
+                "lowstakes.types.vampire",
+                "lowstakes.types.psychic_vampire",
+                "lowstakes.types.werewolf",
+                "lowstakes.types.ghost",
+                "lowstakes.types.mystic",
+                "lowstakes.types.human"
+            ],
+            "description": "",
+            "clout_skills": [],
+            "problem_areas": []
+        },
+        "story_outline": {
+            "description": "",
+            "setup": "",
+            "setups": [],
+            "twists": [],
+            "scenes": []
+        }
+    }
+}

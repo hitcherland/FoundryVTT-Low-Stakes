@@ -1,0 +1,42 @@
+<form class="{{cssClass}} {{item.type}} flexcol" autocomplete="off">
+    <section class="sheet-body">
+        <h1 class="charname"><input name="name" type="text" value="{{localize item.name}}" placeholder="Name" /></h1>
+
+        <div class="description">
+            {{editor content=(localize data.data.description) target="data.description" button=true owner=owner
+            editable=editable}}
+        </div>
+
+        <div class="setup">
+            <h2>{{localize "low-stakes.setup"}}: <input name="data.setup" type="text" value="{{localize data.data.setup}}" /></h2>
+            <div>{{localize "low-stakes.roll_a_die"}}</div>
+            <ol>
+                {{#each data.data.setups as |setup index|}}
+                <li><input name="data.setups.{{index}}" type="text" value="{{localize setup}}" /></li>
+                {{/each}}
+            </ol>
+        </div>
+
+        <div class="twist">
+            <h2>{{localize "low-stakes.twist"}}</h2>
+            <div>{{localize "low-stakes.roll_a_die"}}</div>
+            <ol>
+                {{#each data.data.twists as |twist index|}}
+                <li><input name="data.twists.{{index}}" type="text" value="{{localize twist}}" /></li>
+                {{/each}}
+            </ol>
+        </div>
+
+        <div class="roll-group scenes">
+                <h2>{{localize "low-stakes.scenes"}}</h2>
+                <div>{{localize "low-stakes.roll_two_dice"}}</div>
+                <ol start="2">
+                    {{#each data.data.scenes as |scene index|}}
+                    <li><input name="data.scenes.{{index}}" type="text" value="{{localize scene}}" />
+                    </li>
+                    {{/each}}
+                </ol>
+            </div>
+        </div>
+    </section>
+</form>
