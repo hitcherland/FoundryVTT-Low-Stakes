@@ -48,6 +48,82 @@ class LowStakesActorSheet extends ActorSheet {
                 'data.type': parseInt(target.data('index'))
             });
         });
+
+        html.find('.roll-problem-areas').click(async () => {
+            let n = 1;
+            if(this.actor.data.data.clout) {
+                n += 1;
+            }
+
+            new Dialog({
+                "title": `${game.i18n.localize("low-stakes.roll_some_dice")}: ${game.i18n.localize("low-stakes.problem_areas")}`,
+                "content": Handlebars.partials['systems/low-stakes/templates/roll-dialog.html']({
+                    has_clout: this.actor.data.data.clout,
+                    confidence: this.actor.data.data.confidence,
+                }),
+                "buttons": {
+                    "roll": {
+                        icon: '<i class="fas fa-dice-d20"></i>',
+                        label: game.i18n.localize("low-stakes.roll"),
+                        callback: (html) => {
+                            const confidence = parseInt(html.find('[name="confidence"]').val());
+                            n += confidence;
+                            if(confidence > 0) {
+                                this.actor.update({
+                                    'data.confidence': this.actor.data.data.confidence - confidence
+                                });
+                            }
+                            const roll = new Roll(`${n}d6cs6`);
+                            roll.toMessage({
+                                flavor: game.i18n.localize("low-stakes.problem_areas"),
+                            });
+                        }
+                    },
+                    "cancel": {
+                        icon: '<i class="fas fa-times"></i>',
+                        label: game.i18n.localize("Cancel"),
+                    }
+                }
+            }).render(true);
+        });
+
+        html.find('.roll-clout-skills').click(async () => {
+            let n = 1;
+            if(this.actor.data.data.clout) {
+                n += 1;
+            }
+
+            new Dialog({
+                "title": `${game.i18n.localize("low-stakes.roll_some_dice")}: ${game.i18n.localize("low-stakes.clout_skills")}`,
+                "content": Handlebars.partials['systems/low-stakes/templates/roll-dialog.html']({
+                    has_clout: this.actor.data.data.clout,
+                    confidence: this.actor.data.data.confidence,
+                }),
+                "buttons": {
+                    "roll": {
+                        icon: '<i class="fas fa-dice-d20"></i>',
+                        label: game.i18n.localize("low-stakes.roll"),
+                        callback: (html) => {
+                            const confidence = parseInt(html.find('[name="confidence"]').val());
+                            n += confidence;
+                            if(confidence > 0) {
+                                this.actor.update({
+                                    'data.confidence': this.actor.data.data.confidence - confidence
+                                });
+                            }
+                            const roll = new Roll(`${n}d6cs>=5`);
+                            roll.toMessage({
+                                flavor: game.i18n.localize("low-stakes.clout_skills"),
+                            });
+                        }
+                    },
+                    "cancel": {
+                        icon: '<i class="fas fa-times"></i>',
+                        label: game.i18n.localize("Cancel"),
+                    }
+                }
+            }).render(true);
+        });
         return super.activateListeners(html);
     }
 }
@@ -87,7 +163,6 @@ class LowStakesItemSheet extends ItemSheet {
             });
 
             html.find('.roll-twist').click(async () => {
-
                 const table = new RollTable({
                     name: `${game.i18n.localize(this.item.name)} ${game.i18n.localize("low-stakes.twist")}`,
                     formula: "1d6",
@@ -99,13 +174,12 @@ class LowStakesItemSheet extends ItemSheet {
                         text: game.i18n.localize(twist),
                         range: [index + 1, index + 1]
                     })));
-                    
+
                 const output = await table.roll();
                 return table.toMessage(output.results);
             });
 
             html.find('.roll-scenes').click(async () => {
-
                 const table = new RollTable({
                     name: `${game.i18n.localize(this.item.name)} ${game.i18n.localize("low-stakes.scenes")}`,
                     formula: "2d6",
@@ -117,9 +191,10 @@ class LowStakesItemSheet extends ItemSheet {
                         text: game.i18n.localize(scene),
                         range: [index + 2, index + 2]
                     })));
-                    
+
                 const output = await table.roll();
-                return table.toMessage(output.results);});
+                return table.toMessage(output.results);
+            });
         }
 
         return super.activateListeners(html);
@@ -160,6 +235,7 @@ Hooks.on("init", function () {
     });
 
     return loadTemplates([
+        "systems/low-stakes/templates/roll-dialog.html",
         "systems/low-stakes/templates/document-partial.html",
         "systems/low-stakes/templates/compendium.html",
         "systems/low-stakes/templates/character.html",
