@@ -76,9 +76,10 @@ Hooks.on("init", function() {
     }
 
     Compendium = class extends Compendium {
-        get title() {
-            console.warn(this);
-            return game.i18n.localize(super.title);
+        static get defaultOptions() {
+            return mergeObject(super.defaultOptions, {
+                template: "systems/low-stakes/templates/compendium.html"
+            });
         }
     }
 
@@ -86,7 +87,7 @@ Hooks.on("init", function() {
         constructor(...args) {
             super(...args);
             this.metadata.label = game.i18n.localize(this.metadata.label)
-        }
+        }      
     }
 
     CONFIG.Actor.documentClass = LowStakesActor;
@@ -111,5 +112,5 @@ Hooks.on("init", function() {
 });
 
 Hooks.on('ready', function() {
-    console.warn("hello");
+    ui.items.constructor.documentPartial = "systems/low-stakes/templates/document-partial.html";
 });
