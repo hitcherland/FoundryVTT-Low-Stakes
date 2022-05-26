@@ -119,3 +119,15 @@
 .low-stakes li[checked], .low-stakes li[checked] input {
     font-family: 'New Rocker', cursive;
 }
+
+.low-stakes.sheet .roll-setup, .low-stakes.sheet .roll-twist, .low-stakes.sheet .roll-scenes {
+    text-decoration: underline;
+
+    font-size: 1.1em;
+}
+
+.low-stakes.sheet .roll-setup:hover, .low-stakes.sheet .roll-twist:hover, .low-stakes.sheet .roll-scenes:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
