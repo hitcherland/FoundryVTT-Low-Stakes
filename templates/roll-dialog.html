@@ -1,0 +1,24 @@
+<form class="low-stakes roll-dialog" autocomplete="off">
+    <div class="vertical">
+        <div>{{localize "low-stakes.base"}}</div>
+        <div class="dice">1</div>
+    </div>
+    <div>+</div>
+    <div class="vertical">
+        <div>{{localize "low-stakes.has_clout"}}</div>
+        <div class="dice">
+            {{#if has_clout}}
+                1
+            {{else}}
+                0
+            {{/if}}
+        </div>
+    </div>
+    <div>+</div>
+    <div class="vertical">
+        <div>{{localize "low-stakes.confidence"}}</div>
+        <div class="dice">
+            <input type="number" name="confidence" min="0" max="{{confidence}}" value="0"/>
+        </div>
+    </div>
+</form>

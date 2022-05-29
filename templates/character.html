@@ -19,9 +19,11 @@
                 <h2>{{localize "low-stakes.type"}}</h2>
                 <ul>
                     {{#each playbook.data.data.types as |type index|}}
-                    <li class="type {{type}}" data-index="{{index}}" {{checked (eq index ../data.data.type)}}>{{localize type}}</li>
+                    <li class="type {{type}}" data-index="{{index}}" {{checked (eq index ../data.data.type)}}>
+                        {{localize type}}</li>
                     {{/each}}
-                    <li class="type custom" data-index="6" {{checked (eq 6 data.data.type)}}><input name="data.custom_type" value="{{data.data.custom_type}}"/></li>
+                    <li class="type custom" data-index="6" {{checked (eq 6 data.data.type)}}><input
+                            name="data.custom_type" value="{{data.data.custom_type}}" /></li>
                 </ul>
             </div>
 
@@ -35,21 +37,31 @@
             <div class="roll-group column2">
                 <div class="problem-areas">
                     <h2>{{localize "low-stakes.problem_areas"}}</h2>
+                    <div class="roll-problem-areas">
+                        <i class="fas fa-dice-d20"></i>
+                        <span>{{localize "low-stakes.roll_some_dice"}}</span>
+                    </div>
                     <ul>
                         {{#each playbook.data.data.problem_areas as |problem_area index|}}
                         <li>{{localize problem_area}}</li>
                         {{/each}}
-                        <li class="custom"><input name="data.custom_problem_area" value="{{data.data.custom_problem_area}}"/></li>
+                        <li class="custom"><input name="data.custom_problem_area"
+                                value="{{data.data.custom_problem_area}}" /></li>
                     </ul>
                 </div>
 
                 <div class="clout-skills">
                     <h2>{{localize "low-stakes.clout_skills"}}</h2>
+                    <div class="roll-clout-skills">
+                        <i class="fas fa-dice-d20"></i>
+                        <span>{{localize "low-stakes.roll_some_dice"}}</span>
+                    </div>
                     <ul>
                         {{#each playbook.data.data.clout_skills as |clout_skill index|}}
                         <li>{{localize clout_skill}}</li>
                         {{/each}}
-                        <li class="custom"><input name="data.custom_clout_skill" value="{{data.data.custom_clout_skill}}"/></li>
+                        <li class="custom"><input name="data.custom_clout_skill"
+                                value="{{data.data.custom_clout_skill}}" /></li>
                     </ul>
                 </div>
             </div>
@@ -59,9 +71,9 @@
                     <div class="circle">
                         <div class="clout-toggle">
                             {{#if data.data.clout}}
-                                YES
+                            YES
                             {{else}}
-                                NO
+                            NO
                             {{/if}}
                         </div>
                     </div>
@@ -69,7 +81,7 @@
                 <div>
                     <h2>{{localize "low-stakes.confidence"}}</h2>
                     <div class="circle large">
-                        <input type="number" min=0 name="data.confidence" value="{{data.data.confidence}}"/>
+                        <input type="number" min=0 name="data.confidence" value="{{data.data.confidence}}" />
                     </div>
                 </div>
             </div>
@@ -78,21 +90,24 @@
         <div class="confessions">
             <h2>{{localize "low-stakes.confessions.title"}}</h2>
             <div>
-                <input type="checkbox" name="data.confessions.reveal" id="{{actor.id}}_confessions_reveal" value="{{data.data.confessions.reveal}}" {{checked data.data.confessions.reveal}}/>
+                <input type="checkbox" name="data.confessions.reveal" id="{{actor.id}}_confessions_reveal"
+                    value="{{data.data.confessions.reveal}}" {{checked data.data.confessions.reveal}} />
                 <label for="{{actor.id}}_confessions_reveal">
                     <b>{{localize "low-stakes.confessions.reveal.name"}}</b>
                     <span>{{localize "low-stakes.confessions.reveal.description"}}</span>
                 </label>
             </div>
             <div>
-                <input type="checkbox" name="data.confessions.foreshadow" id="{{actor.id}}_confessions_foreshadow" value="{{data.data.confessions.foreshadow}}" {{checked data.data.confessions.foreshadow}}/>
+                <input type="checkbox" name="data.confessions.foreshadow" id="{{actor.id}}_confessions_foreshadow"
+                    value="{{data.data.confessions.foreshadow}}" {{checked data.data.confessions.foreshadow}} />
                 <label for="{{actor.id}}_confessions_foreshadow">
                     <b>{{localize "low-stakes.confessions.foreshadow.name"}}</b>
                     <span>{{localize "low-stakes.confessions.foreshadow.description"}}</span>
                 </label>
             </div>
             <div>
-                <input type="checkbox" name="data.confessions.poke_fun" id="{{actor.id}}_confessions_poke_fun" value="{{data.data.confessions.poke_fun}}" {{checked data.data.confessions.poke_fun}}/>
+                <input type="checkbox" name="data.confessions.poke_fun" id="{{actor.id}}_confessions_poke_fun"
+                    value="{{data.data.confessions.poke_fun}}" {{checked data.data.confessions.poke_fun}} />
                 <label for="{{actor.id}}_confessions_poke_fun">
                     <b>{{localize "low-stakes.confessions.poke_fun.name"}}</b>
                     <span>{{localize "low-stakes.confessions.poke_fun.description"}}</span>

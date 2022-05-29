@@ -8,8 +8,9 @@
         </div>
 
         <div class="setup">
-            <h2>{{localize "low-stakes.setup"}}: <input name="data.setup" type="text" value="{{localize data.data.setup}}" /></h2>
-            <div>{{localize "low-stakes.roll_a_die"}}</div>
+            <h2>{{localize "low-stakes.setup"}}: <input name="data.setup" type="text"
+                    value="{{localize data.data.setup}}" /></h2>
+            <div class="roll-setup"><i class="fas fa-dice-d20"></i> {{localize "low-stakes.roll_a_die"}}</div>
             <ol>
                 {{#each data.data.setups as |setup index|}}
                 <li><input name="data.setups.{{index}}" type="text" value="{{localize setup}}" /></li>
@@ -19,7 +20,7 @@
 
         <div class="twist">
             <h2>{{localize "low-stakes.twist"}}</h2>
-            <div>{{localize "low-stakes.roll_a_die"}}</div>
+            <div class="roll-twist"><i class="fas fa-dice-d20"></i> {{localize "low-stakes.roll_a_die"}}</div>
             <ol>
                 {{#each data.data.twists as |twist index|}}
                 <li><input name="data.twists.{{index}}" type="text" value="{{localize twist}}" /></li>
@@ -28,15 +29,14 @@
         </div>
 
         <div class="roll-group scenes">
-                <h2>{{localize "low-stakes.scenes"}}</h2>
-                <div>{{localize "low-stakes.roll_two_dice"}}</div>
-                <ol start="2">
-                    {{#each data.data.scenes as |scene index|}}
-                    <li><input name="data.scenes.{{index}}" type="text" value="{{localize scene}}" />
-                    </li>
-                    {{/each}}
-                </ol>
-            </div>
+            <h2>{{localize "low-stakes.scenes"}}</h2>
+            <div class="roll-scenes"><i class="fas fa-dice-d20"></i> {{localize "low-stakes.roll_two_dice"}}</div>
+            <ol start="2">
+                {{#each data.data.scenes as |scene index|}}
+                <li><input name="data.scenes.{{index}}" type="text" value="{{localize scene}}" /></li>
+                {{/each}}
+            </ol>
+        </div>
         </div>
     </section>
 </form>

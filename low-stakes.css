@@ -21,7 +21,7 @@
     display: flex;
 }
 
-.low-stakes li.custom input {
+.low-stakes.sheet li.custom input {
     font-family: Calibri, sans-serif;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     font-size: 1em;
@@ -44,7 +44,7 @@
     font-size: 1em;
 }
 
-.low-stakes input {
+.low-stakes.sheet input {
     background: none;
     border: 0;
     padding: 0;
@@ -118,4 +118,29 @@
 
 .low-stakes li[checked], .low-stakes li[checked] input {
     font-family: 'New Rocker', cursive;
+}
+
+.low-stakes.sheet .roll-setup, .low-stakes.sheet .roll-twist, .low-stakes.sheet .roll-scenes, .low-stakes.sheet .roll-problem-areas, .low-stakes.sheet .roll-clout-skills {
+    text-decoration: underline;
+
+    font-size: 1.1em;
+}
+
+.low-stakes.sheet .roll-setup:hover, .low-stakes.sheet .roll-twist:hover, .low-stakes.sheet .roll-scenes:hover,.low-stakes.sheet .roll-problem-areas:hover, .low-stakes.sheet .roll-clout-skills:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.low-stakes.roll-dialog{
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.low-stakes.roll-dialog .vertical{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0 1em;
 }
