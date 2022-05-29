@@ -27,7 +27,7 @@
     "name": "low-stakes",
     "title": "Low Stakes",
     "description": "In Low Stakes, you portray a gothic horror monster (like a vampire, werewolf, or ghost) or one of their human friends sharing a home with other monsters in the modern day. As it turns out, you're not very good at it. Purchase at https://www.drivethrurpg.com/product/343626/Low-Stakes",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "hitcherland",
     "minimumCoreVersion": "9.269",
     "esmodules": [
@@ -35,7 +35,7 @@
     ],
     "compatibleCoreVersion": "9.269",
     "url": "https://github.com/hitcherland/low-stakes",
-    "manifest": "https://raw.githubusercontent.com/hitcherland/foundryvtt-low-stakes/0.1.0/system.json",
-    "readme": "https://raw.githubusercontent.com/hitcherland/foundryvtt-heart/0.1.0/README.md",
-    "download": "https://github.com/hitcherland/foundryvtt-heart/archive/refs/tags/0.1.0.zip"
+    "manifest": "https://raw.githubusercontent.com/hitcherland/foundryvtt-low-stakes/0.1.1/system.json",
+    "readme": "https://raw.githubusercontent.com/hitcherland/foundryvtt--low-stakes/0.1.1/README.md",
+    "download": "https://github.com/hitcherland/foundryvtt--low-stakes/archive/refs/tags/0.11.zip"
 }
