@@ -192,6 +192,7 @@
     {
         "_id": "lowstakesonedayx",
         "name": "low-stakes.story_outlines.one_day.name",
+        "type": "story_outline",
         "data": {
             "description": "low-stakes.story_outlines.one_day.description",
             "setup": "low-stakes.story_outlines.one_day.setup",
@@ -229,6 +230,7 @@
     {
         "_id": "lowstakesroadtri",
         "name": "low-stakes.story_outlines.road_trip.name",
+        "type": "story_outline",
         "data": {
             "description": "low-stakes.story_outlines.road_trip.description",
             "setup": "low-stakes.story_outlines.road_trip.setup",
