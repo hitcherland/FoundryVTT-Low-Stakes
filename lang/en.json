@@ -219,7 +219,7 @@
                     "wedding_reception": "Wedding reception",
                     "halloween": "Halloween"
                 },
-                "twist": {
+                "twists": {
                     "too_many": "Too many people show up.",
                     "service_fails": "Some utility or service fails (cable, Wi-Fi, electricity, etc.).",
                     "understocked": "You’re understocked for food and drink.",
@@ -253,7 +253,7 @@
                     "dangerous": "Something kind of dangerous",
                     "very_dangerous": "Something really fucking dangerous"
                 },
-                "twist": {
+                "twists": {
                     "neighbour_hates": "A neighbor hates your pet.",
                     "happened_before": "This has happened before.",
                     "hide_and_seek": "The pet likes to play hide and seek.",
@@ -287,7 +287,7 @@
                     "knowledgable_human": "A human who knows monsters exist",
                     "hunter": "A human monster hunter"
                 },
-                "twist": {
+                "twists": {
                     "love": "The neighbor falls in love with one roommate.",
                     "recording": "They are secretly recording their interactions with you.",
                     "captain": "They’re the new captain of the neighborhood watch.",
